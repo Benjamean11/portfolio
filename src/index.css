@@ -3,3 +3,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+@keyframes growShrink {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.grow-shrink {
+  animation: growShrink 1.5s ease-in-out infinite;
+}
